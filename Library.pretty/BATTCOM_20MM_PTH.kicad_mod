@@ -1,0 +1,177 @@
+(footprint "BATTCOM_20MM_PTH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<h3>20mm (CR2032) Coin Cell Battery Holder - PTH</h3>\n<p>Basic 20mm coin cell holder. Posts can be inserted into 0.1\" perf board! Holds the common CR2032 type batteries.</p>\n<p><a href=\"http://www.sparkfun.com/datasheets/Prototyping/CoinCellHolder-20mm.pdf\">Datasheet</a></p>\n<h4>Devices Using</h4>\n<ul><li>BATTERY</li></ul>")
+	(property "Reference" "REF**"
+		(at -10.795 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e97c2a9-153e-4dad-99e1-2db5952ac526")
+		(effects
+			(font
+				(size 0.57912 0.57912)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "aeb2c421-f1bb-4d54-86b8-4410e65cfee1")
+		(effects
+			(font
+				(size 0.57912 0.57912)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "60539977-4e32-43e1-bc61-6b71ca03e386")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "926227c9-5b1b-4bdf-867f-e07f7f9867e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -10.54 -3.8)
+		(end -10.54 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29c38e01-8398-427b-94d3-488e71bff010")
+	)
+	(fp_line
+		(start 10.34 -3.8)
+		(end 13.32 -3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52313a56-fc69-42d6-bb14-91e454b885db")
+	)
+	(fp_line
+		(start 13.32 -3.8)
+		(end 13.32 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61c5349b-a33d-40fe-8127-6b330177aadc")
+	)
+	(fp_line
+		(start 13.32 3.8)
+		(end 10.34 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67fdc1ec-ccd6-453b-b514-e259f1133d3d")
+	)
+	(fp_arc
+		(start -10.54 -3.8)
+		(mid -0.1 -11.100449)
+		(end 10.34 -3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12f16cf3-d505-482f-884f-294ba86e43f2")
+	)
+	(fp_arc
+		(start 10.34 3.8)
+		(mid -0.1 11.100449)
+		(end -10.54 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b42987d-68b9-4d9f-8b41-5fb833ef9316")
+	)
+	(fp_circle
+		(center 0.06 -0.1)
+		(end 10.06 -0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1744e48b-f829-4305-bb33-6c0769d0e4e1")
+	)
+	(fp_text user "+"
+		(at 8.6 0.7 180)
+		(layer "F.Fab")
+		(uuid "10126aaa-af16-4a60-b5e2-03db7830b180")
+		(effects
+			(font
+				(size 1.2065 1.2065)
+				(thickness 0.1016)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "-"
+		(at -6.4 0.7 180)
+		(layer "F.Fab")
+		(uuid "74dd728a-adc6-48ef-9ad2-dc9ecd992cd6")
+		(effects
+			(font
+				(size 1.2065 1.2065)
+				(thickness 0.1016)
+			)
+			(justify right bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 11.85 0 90)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(uuid "c240abb9-934f-4de3-94d1-9db1d980666d")
+	)
+	(pad "2" thru_hole circle
+		(at -8.15 0 90)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(uuid "f9b8af35-bd33-4c0e-a239-6cfa0a364f5b")
+	)
+	(embedded_fonts no)
+)

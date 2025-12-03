@@ -1,0 +1,243 @@
+(footprint "CONN-USB-A-PCB-TRACES"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.13 -7.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9b4b4b3a-79d9-4f91-813b-82d964a253cd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_B"
+		(at 0.29 -10.13 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7729f8cb-fe25-4edc-9f35-f071ce0d5c33")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" " ~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc1c7534-021d-4877-9b0e-12a8d03777a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Type B connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccc7d87d-2187-47df-8d2c-298a753040a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_line
+		(start -6 -12)
+		(end -5 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07995d69-3e28-48ed-8d07-1c02ed517dd0")
+	)
+	(fp_line
+		(start -6 0)
+		(end -6 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da244ad2-38aa-47d1-81d1-426156e7800b")
+	)
+	(fp_line
+		(start -4.5 -12)
+		(end -4 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "295a0bbd-9d47-4d3e-8b75-9afdaa83dbd3")
+	)
+	(fp_line
+		(start -3.5 -12)
+		(end -3 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75a97629-9384-4e61-be1a-e633d47a3ec8")
+	)
+	(fp_line
+		(start -2.5 -12)
+		(end -2 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7abd7fcf-4946-45ce-9121-5d378a0e704a")
+	)
+	(fp_line
+		(start -1.5 -12)
+		(end -1 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68a2ba66-4de1-43c2-8903-20e2f48c11d8")
+	)
+	(fp_line
+		(start -0.5 -12)
+		(end 0 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0ba71ac-d4e6-4786-b89e-3d755d101274")
+	)
+	(fp_line
+		(start 0.5 -12)
+		(end 1 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63daa465-e3f6-4101-84c0-f5d63cd83512")
+	)
+	(fp_line
+		(start 1.5 -12)
+		(end 2 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0aaee78e-4e3e-4d8c-a713-1856a4721afd")
+	)
+	(fp_line
+		(start 2.5 -12)
+		(end 3 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b42354c4-da64-4736-bec3-0b9394e1df8c")
+	)
+	(fp_line
+		(start 3.5 -12)
+		(end 4 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ea8e855-e8ec-4519-93fb-e25c05b9297e")
+	)
+	(fp_line
+		(start 4.5 -12)
+		(end 5 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8733b67-9af3-4545-93a7-5efdc00e2d61")
+	)
+	(fp_line
+		(start 5.5 -12)
+		(end 6 -12)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a454666-0eb6-4228-8bd6-e552e96a8d0c")
+	)
+	(fp_line
+		(start 6 -12)
+		(end 6 0)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a683e788-0d6e-414a-902e-85e8aa7fe078")
+	)
+	(fp_line
+		(start 6 0)
+		(end -6 0)
+		(stroke
+			(width 0.04064)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "359a2d62-c7cd-455a-8f12-b926cd56f110")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.25 0)
+		(layer "F.Fab")
+		(uuid "3b9b6912-71cd-41d5-9f14-efe79baa1850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at 3.81 -4.9)
+		(size 1.9 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0201e2bc-001d-4b59-9332-0bde7c1bc750")
+	)
+	(pad "2" connect rect
+		(at 1.3 -5.15)
+		(size 2 7.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b7f5cbdb-d63d-4d99-a33d-67fb1bceed0d")
+	)
+	(pad "3" connect rect
+		(at -1.3 -5.15)
+		(size 2 7.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ffd8a237-ee5b-4d11-a913-52c02236f6b2")
+	)
+	(pad "4" connect rect
+		(at -3.81 -4.9)
+		(size 1.9 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "eeb54c43-8eaf-4ae4-b3f4-a1466657f7f2")
+	)
+	(embedded_fonts no)
+)
